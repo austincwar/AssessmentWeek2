@@ -35,7 +35,9 @@ const cart = [
 
 //CODE HERE
 
-const summedPrice = cart.reduce()
+const summedPrice = cart.reduce(function(accumulator, current) {
+    return accumulator + current
+})
 
 console.log(summedPrice)
 
@@ -56,6 +58,9 @@ console.log(summedPrice)
 
 //CODE HERE
 
+const calcFinalPrice = (cartTotal, couponValue, tax) => {
+
+}
 
 
 //////////////////PROBLEM 3////////////////////
@@ -80,7 +85,7 @@ console.log(summedPrice)
 
 /*
     TEXT ANSWER HERE
-
+    My customer object will have the properties of favorite food type, favorite drink, any allergies they have, hunger level, and preferred taste. With this information we will be able to better understand what the indecisive guest wants to eat and drink, how much time we have to prepare the dish before they start flipping tables, and what kind of food we can prepare without accidentally un-aliving them.
 */
 
 /*
@@ -89,3 +94,11 @@ console.log(summedPrice)
 */
 
 //CODE HERE
+
+const customerObject = {
+    favFood: "Italian",
+    favDrink: "Coffee",
+    allergies: "Tree-nuts",
+    preferredTaste: "Umami",
+    hungerLevel: "99.99"
+  };
