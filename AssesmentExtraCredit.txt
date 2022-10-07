@@ -1,0 +1,16 @@
+Extra Credit
+
+
+Adobe:
+
+Adobe uses around 219 types of techonolgy products and services. Some of which include HTML, Google Analytics, jQueery. Its website tech stack includes Viewport Meta, Apache, and more.
+
+
+Meta:
+
+Meta uses a combination of frameworks including JavaScript, CSS, PHP, and ReactJS.
+
+
+Amazon:
+
+Amazon's tech stack includes several stacks: Java, Perl, Angular, MySQL, C++, DynamoDB, Amazon EC2 container service, and several other amzon frameworks.
