@@ -47,6 +47,11 @@ employee1.getSchedule()
 
 //CODE HERE
 
+
+let empOne = new Employee("Jess", "weekday mornings")
+
+
+
 /*
     Call the `getSchedule` method on the
     `empOne` object.
@@ -54,8 +59,7 @@ employee1.getSchedule()
 
 //CODE HERE
 
-
-const empOne
+empOne.getSchedule()
 
 /*
     Make a copy of the empOne object
